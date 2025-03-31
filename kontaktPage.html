@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt Page</title>
+    <link rel="stylesheet" href="styles/app.css">
+    <script src="scripts/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="topnav">
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px"
+                            viewBox="0 -960 960 960" width="26px">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="kontaktPage.html">Kontakt</a></li>
+                <li><a href="privacyPage.html">Prywatność</a></li>
+            </ul>
+            <ul>
+                <li><a href="index.html">KredioPL</a></li>
+                <li class="hideOnMobile"><a href="index.html">Strona główna</a></li>
+                <li class="hideOnMobile"><a href="kontaktPage.html">Kontakt</a></li>
+                <li class="hideOnMobile"><a href="privacyPage.html">Prywatność</a></li>
+                <li onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px"
+                            viewBox="0 -960 960 960" width="26px">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="mainContent">
+        <div class="textContent">
+            <h2 class="kontaktH">KONTAKT</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="phone">Telefon:</label>
+                <input type="tel" id="phone" name="phone" required><br>
+                <label for="country">Kraj pochodzenia:</label>
+                <input type="text" id="country" name="country" required><br>
+                <label for="employment">Typ zatrudnienia:</label>
+                <input type="text" id="employment" name="employment" required><br>
+                <label for="loan_date">Kiedy planujesz wziąć kredyt:</label>
+                <input type="date" id="loan_date" name="loan_date" required><br>
+                <label for="loan_amount">Kwota kredytu:</label>
+                <input type="number" id="loan_amount" name="loan_amount" min="1" required><br>
+                <label for="message">Napisz co Cię interesuje?</label>
+                <textarea id="message" name="message" required></textarea><br>
+                <button type="submit">WYŚLIJ</button>
+            </form>
+        </div>
+        <div class="contactInfo">
+            <h2>DANE KONTAKTOWE</h2>
+            <p>Warsaw, Poland</p>
+            <p>Phone: +48 222 111 392</p>
+            <p>Fax: +48 222 111 392</p>
+            <p>Email: office@krediopl.pl</p>
+            <h2>MEDIA</h2>
+            <p>OBSERWUJ NAS NA <strong><a href="">INSTAGRAM</a></strong> <strong><a href="">FACEBOOK</a></strong>
+                <strong><a href="">DISCORD</a></strong>
+            </p>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <p>
+                Copyright &#169; 2025 By Dmytro Komarovskyi
+            </p>
+        </div>
+        <div>Test project</div>
+    </footer>
+</body>
+
+</html>

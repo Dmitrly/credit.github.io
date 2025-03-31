@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+    <link rel="stylesheet" href="styles/app.css">
+    <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+    <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+    <script src="scripts/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="topnav">
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px"
+                            viewBox="0 -960 960 960" width="26px">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="kontaktPage.html">Kontakt</a></li>
+                <li><a href="privacyPage.html">Prywatność</a></li>
+            </ul>
+            <ul>
+                <li><a href="index.html">KredioPL</a></li>
+                <li class="hideOnMobile"><a href="index.html">Strona główna</a></li>
+                <li class="hideOnMobile"><a href="kontaktPage.html">Kontakt</a></li>
+                <li class="hideOnMobile"><a href="privacyPage.html">Prywatność</a></li>
+                <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px"
+                            viewBox="0 -960 960 960" width="26px">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="mainContent">
+        <div class="headPartMain">
+            <p class="subtitle">od 2020</p>
+            <h1>Zapisz się na konsultację teraz!</h1>
+            <div class="google-calendar-button"></div>
+        </div>
+
+        <div class="textContent">
+            <h2><strong>Co takie KredioPL?</strong></h2>
+            <hr>
+            <p class="oNasText">
+                <strong>KredioPL</strong> – to Twoje niezawodne wsparcie w świecie kredytów hipotecznych. Jesteśmy
+                młodą, ale ambitną
+                firmą założoną w 2020 roku, której celem jest uczynienie procesu uzyskania kredytu hipotecznego możliwie
+                prostym i zrozumiałym. Nasi eksperci posiadają wieloletnie doświadczenie w zakresie doradztwa
+                finansowego i są gotowi pomóc Ci w znalezieniu najlepszych warunków kredytu, które będą odpowiadać Twoim
+                potrzebom i możliwościom.
+            </p>
+            <p class="oNasText">
+                Zapewniamy profesjonalne doradztwo i wsparcie na wszystkich etapach procesu kredytowego – od wyboru
+                banku po podpisanie umowy. Nasze podejście opieramy na przejrzystości, indywidualnym podejściu do
+                każdego klienta i szczegółowej analizie Twojej sytuacji finansowej.
+            </p>
+            <p class="oNasText">
+                <strong>KredioPL</strong> to Twoja pewność przyszłości i niezawodny partner w drodze do własnego domu.
+                Zaufaj
+                profesjonalistom i zrealizuj z nami swoje marzenie! A co najważniejsze, nasze usługi są teraz całkowicie
+                darmowe.
+            </p>
+        </div>
+        <br>
+        <div class="cards-section">
+            <h3>Twoja ścieżka kredytowa – nasze bezpłatne wsparcie.</h3><br>
+            <div class="container">
+                <div class="cards-grid">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/consultation-vector.jpg" alt="Konsultacja">
+                        </div>
+                        <h3>Konsultacja</h3>
+                        <p>Uzyskaj poradę w kwestiach związanych z kredytami hipotecznymi.
+                            Pomożemy Ci znaleźć rozwiązania dla Twojej sytuacji finansowej.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/creditworthiness-vector.jpg" alt="Ocena zdolności kredytowej">
+                        </div>
+                        <h3>Ocena zdolności kredytowej</h3>
+                        <p>Sprawdź swoją zdolność kredytową dzięki naszej kompleksowej analizie.
+                            Oceniamy Twoje możliwości
+                            i oferujemy najlepsze opcje
+                            kredytowe.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/prep-docs-vector.jpg" alt="Przygotowanie dokumentów">
+                        </div>
+                        <h3>Przygotowanie dokumentów</h3>
+                        <p>Nie musisz się martwić – nasi eksperci zgromadzą, wystawią i złożą w
+                            Twoim imieniu wszystkie niezbędne dokumenty.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="row">
+                <div class="column image">
+                    <img src="images/thinking.jpg" alt="Фото 1" class="responsive-image">
+                </div>
+                <div class="column text">
+                    <h2>Dlaczego warto wybrać nas?</h2>
+                    <p>Jesteśmy zespołem ekspertów, którzy znajdą najlepsze rozwiązania dla Twojej sytuacji kredytowej.
+                        Pomagamy na każdym kroku, dbając o Twoje potrzeby i komfort.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column text">
+                    <h2>Nasze podejście</h2>
+                    <p>Oferujemy szybkie, skuteczne i przejrzyste rozwiązania, które pozwolą Ci zrealizować Twoje cele
+                        finansowe.</p>
+                </div>
+                <div class="column image">
+                    <img src="images/help.jpg" alt="Фото 2" class="responsive-image">
+                </div>
+            </div>
+        </div>
+
+        <div class="section-team">
+            <div class="row">
+                <div class="card">
+                    <img class="resize-image" src="images/anonimus1.jpg" alt="Team Member">
+                    <h3>Piotr Kowalczyk</h3>
+                    <p>kredytowy doradca</p>
+                </div>
+                <div class="card">
+                    <img class="resize-image" src="images/anonimus2.jpg" alt="Team Member">
+                    <h3>Anton Gust</h3>
+                    <p>CEO & Founder</p>
+                </div>
+                <div class="card">
+                    <img class="resize-image" src="images/anonimus3.jpg" alt="Team Member">
+                    <h3>Dmytro Komarovskyi</h3>
+                    <p>kredytowy doradca</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="faq-section">
+            <h2>Pytanie & Odpowiedź</h2>
+            <p>Tutaj znajdziesz odpowiedzi na najpopularniejsze pytania</p>
+            <div class="faq">
+                <details>
+                    <summary>Jakie usługi oferuje KredioPL?</summary>
+                    <p>KredioPL specjalizuje się w świadczeniu pomocy w uzyskaniu kredytów hipotecznych i gotówkowych
+                        dla
+                        klientów w Polsce. Przeprowadzimy konsultację, wybierzemy z Tobą najlepszą ofertę banku i
+                        przygotujemy do złożenia dokumentów.
+                    </p>
+                </details>
+                <details>
+                    <summary>Czy obcokrajowcy nieposiadający polskiego obywatelstwa mogą otrzymać pożyczkę?</summary>
+                    <p>Tak, obcokrajowcy mogą otrzymać pożyczkę, jeżeli posiadają Kartę Pobicia oraz dokumenty
+                        potwierdzające zdolność kredytową i dochody.</p>
+                </details>
+                <details>
+                    <summary>Co jest potrzebne, aby dostać pożyczkę?</summary>
+                    <ol>
+                        <li>Paszport zagraniczny;</li>
+                        <li>Karta pobytu stałego lub czasowego w Polsce na co najmniej 6 miesięcy do przodu na moment
+                            rejestracji kredytu;</li>
+                        <li>Zaświadczenie o dochodach za ostatnie 6-12 miesięcy (w przypadku zatrudnienia w Polsce na
+                            podstawie umowy/kontraktu);</li>
+                        <li>Zaświadczenie o dochodach z ostatnich 1-2 lat (pod warunkiem prowadzenia działalności
+                            gospodarczej na terenie Polski);</li>
+                    </ol>
+                </details>
+                <details>
+                    <summary>Jaka jest maksymalna kwota pożyczki, którą można uzyskać?</summary>
+                    <p>Maksymalna kwota kredytu uzależniona jest od rodzaju kredytu, sytuacji finansowej klienta i
+                        innych czynników. Nasi konsultanci pomogą Ci wybrać najlepsze rozwiązanie.</p>
+                </details>
+                <details>
+                    <summary>Ile trwa proces kredytowy?</summary>
+                    <p>Czas rozpatrywania pożyczki zależy od jej rodzaju i wymaganych dokumentów, jednak zazwyczaj
+                        proces ten trwa do kilku tygodni.</p>
+                </details>
+                <details>
+                    <summary>Czy jest możliwość wcześniejszej spłaty kredytu?</summary>
+                    <p>Zwykle możliwa jest wcześniejsza spłata kredytu, jednak niektóre banki mogą pobierać opłatę za tę
+                        usługę. Nasi konsultanci pomogą Ci poznać wszystkie warunki spłaty w banku, z którym
+                        współpracujesz.</p>
+                </details>
+            </div>
+        </section>
+        <section class="bookKons">
+            <div class="google-calendar">
+                <p>Potrzebujesz Kwalifikowanego Doradztwa Kredytowego?</p><br>
+                <div class="google-calendar-button"></div>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <div>
+            <p>
+                Copyright &#169; 2025 By Dmytro Komarovskyi
+            </p>
+        </div>
+        <div>Test project</div>
+    </footer>
+</body>
+
+</html>
